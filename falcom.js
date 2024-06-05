@@ -58,22 +58,19 @@ copyTexts.forEach((copyTexts) => {
 
 });
 
-const element = document.querySelectorAll(".fade-out");
 
-const option = {
-    root: null,
-    rootMargin: "0px",
-    threshold: .4
-}
-const callBacks = (entries) => {
-    entries.forEach(entry =>{
-        if (entry.isIntersecting){
-            entry.target.classList.add("active");
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }else {
+            entry.target.classList.remove("show");
         }
-    });
-}
+    })
+})
 
-let observer= new IntersectionObserver(cb, option);
-element.forEach(element => {
-    element.observer(element);
-});
+const hiddenElement = document.querySelectorAll(".hidden");
+hiddenElement.forEach((el) => observer.observe(el));

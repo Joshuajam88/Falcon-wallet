@@ -435,6 +435,17 @@ hr{
     font-family: "Poppins", sans-serif;
     margin-top: 10px;
 }
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 .review {
     text-align: center;
     margin-top: 50px;
@@ -538,7 +549,7 @@ hr{
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 3rem;
         flex-direction: column;
         background-color: #000;
         color: #fff;
@@ -556,7 +567,7 @@ hr{
     }
     
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 3.5rem 0;
     }
     
     .hamburger {
@@ -573,6 +584,10 @@ hr{
     
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar{
+        margin: 10px;
+        justify-content: space-between;
     }
     #get-started{
         display: block;
@@ -621,5 +636,62 @@ hr{
     }
     .paypal-heading{
         font-size: 25px;
+    }
+    #card{
+        margin: 0 20px 0 18px;
+        width: 90%;
+    }
+    #card-body{
+        margin: 0 0 10px 0;
+    }
+    .our-price{
+        margin-bottom: 20px;
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    .price-txt{
+        font-size: 12px;
+        margin-bottom: -30px;
+    }
+    .money-details{
+        text-align: center;
+    }
+    .money-details h3{
+        font-size: 15px;
+        margin-top: -70px;
+    }
+    .money-details p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .copy-text{
+        position: relative;
+        left: 50px;
+        width: 195px;
+    }
+    .contact{
+        margin: 30px 0;
+    }
+    .review h3{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .review p{
+        font-size: 12px;
+        padding: 10px;
+    }
+    #customer-review{
+        margin-top: -70px;
+        padding: 0;
+    }
+    .customer-review{
+        margin-bottom: 100px;
+    }
+    .container-fluid1{
+        margin-top: 0;
+    }
+    .footer-txt{
+        font-size: 15px;
+        max-width: 500px;
     }
 }
