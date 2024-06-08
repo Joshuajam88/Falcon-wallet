@@ -461,10 +461,10 @@ html {
         margin-left: 33px;
     }
     #service-landing h3{
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
         margin-left: 20px;
-        margin-top: -10px;
+        margin-top: -25px;
     }
     #service-landing p{
         margin-left: 20px;
@@ -496,6 +496,7 @@ html {
     }
     #pay-content hr{
         margin-top: -20px;
+        width: 94%;
     }
     #pay-content p{
         font-size: 12px;
