@@ -405,22 +405,39 @@ html {
 
 @media only screen and (max-width: 600px){
     #landing-img{
-        width: 100%;
-        margin-left: 30px;
+        width: 80%;
+        margin-left: 35px;
+        margin-top: 20px;
     }
     #landing h3{
         padding: 0;
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
+        margin-top: -20px;
     }
     #landing button{
         padding: 5;
         margin: 30px 0 10px 20px;
     }
     .team-img1, .team-img2, .team-img3{
-        width: 100%;
-        margin: 0;
+        width: 80%;
+        margin: 0 0 20px 32px;
+
+    }
+    .team{
+        margin: 30px;
+    }
+    .team h5{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .team h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #team{
+        margin-top: -30px;
     }
     .mission-img{
         width: 100%;
@@ -434,6 +451,10 @@ html {
     .bi-award-fill, .bi-chat-fill{
         position: relative;
         left: 0;
+        margin-left: 45px;
+    }
+    #icons{
+        margin-top: 0;
     }
     .service-landing-img{
         width: 80%;
@@ -532,5 +553,47 @@ html {
     }
     #count button{
         margin: 15px 0 35px 0;
+    }
+    #about h3{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #about hr{
+        margin-left: -65px;
+        margin-top: 30px;
+        width: 50px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    #about p{
+        padding: 20px;
+        max-width: 350px;
+    }
+    #about button{
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+    #about-img{
+        width: 55%;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .us{
+        margin-top: 25px;
+        font-size: 19px;
+    }
+    .mission-img{
+        width: 80%;
+        margin-top: -50px;
+        margin-left: 32px;
+    }
+    #mission-txt{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #mission-txt h3{
+        font-size: 20px;
+        font-weight: 600;
     }
 }
