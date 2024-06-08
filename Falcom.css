@@ -546,6 +546,9 @@ hr{
     *{
         overflow: -moz-hidden-unscrollable;
     }
+    body{
+        overflow: hidden;
+    }
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -604,7 +607,7 @@ hr{
         max-width: 600px;
         font-size: 28px;
         font-weight: 500;
-        margin: 0 0 0 20px;
+        margin: 0 0 0 15px;
     }
     .form-check{
         position: relative;
@@ -619,6 +622,23 @@ hr{
     hr{
         width: 80%;
     }
+    #top{
+        margin: 30px 0 80px 0;
+    }
+    .bi-umbrella-fill, .bi-stopwatch-fill, .bi-building, .bi-person-fill-lock{
+        margin-left: -180px;
+        /* margin-bottom: 50px; */
+    }
+    .elementor-icon-box-content{
+        margin-left: -90px;
+    }
+    .us{
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+    #icons{
+        padding-top: -100px;
+    }
     .paypal-img{
         width: 100%;
         margin-top: 30px;
@@ -626,7 +646,31 @@ hr{
         left: 60px;
     }
     .withdrawal-img{
+        width: 80%;
+        margin-top: -50px;
+        margin-left: 30px;
+    }
+    #withdrawal1{
+        text-align: center;
+    }
+    .withdrawal-heading{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .activation-img{
         width: 100%;
+        margin-top: -100px;
+    }
+    .activation{
+        text-align: center;
+    }
+    .activation h3{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .activation p{
+        font-size: 12px;
+        margin-bottom: -50px;
     }
     #paypal{
         margin-top: -60px;
@@ -634,8 +678,21 @@ hr{
         right: 70px;
         display: block;
     }
+    .paypal-txt{
+        font-size: 12px;
+        padding: 20px;
+        max-width: 350px;
+        margin-left: -15px;
+    }
     .paypal-heading{
         font-size: 25px;
+    }
+    #learn-more{
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    #paypal hr{
+        width: 90%;
     }
     #card{
         margin: 0 20px 0 18px;
@@ -672,6 +729,12 @@ hr{
     .contact{
         margin: 30px 0;
     }
+    .card-txt{
+        font-size: 11px;
+    }
+    .card-head-txt{
+        font-weight: 600;
+    }
     .review h3{
         font-size: 17px;
         font-weight: 500;
@@ -683,15 +746,37 @@ hr{
     #customer-review{
         margin-top: -70px;
         padding: 0;
+        font-size: 13px;
     }
     .customer-review{
         margin-bottom: 100px;
+        font-size: 13px;
     }
     .container-fluid1{
         margin-top: 0;
     }
     .footer-txt{
-        font-size: 15px;
-        max-width: 500px;
+        font-size: 10px;
+        padding: 0;
+        margin-top: -40px;
+    }
+    .footer-main-txt{
+        margin-left: -50px;
+        margin-bottom: 25px;
+    }
+    .footer-main-txt h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .footer-main-txt p{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .footer-icon{
+        display: flex;
+        margin: 20px 0;
+    }
+    .footer-btn{
+        margin-bottom: -200px;
     }
 }
