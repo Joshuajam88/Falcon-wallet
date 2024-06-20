@@ -449,9 +449,9 @@ html {
         padding: 0;
     }
     .bi-award-fill, .bi-chat-fill{
-        position: relative;
-        left: 0;
-        margin-left: 45px;
+        /* position: relative;
+        left: 0; */
+        margin-left: -120px;
     }
     #icons{
         margin-top: 0;
@@ -590,8 +590,8 @@ html {
         margin-left: 32px;
     }
     #mission-txt{
-        width: 300px;
-        margin-left: 20px;
+        width: 85%;
+        margin-left: 33px;
     }
     #mission-txt h3{
         font-size: 20px;
