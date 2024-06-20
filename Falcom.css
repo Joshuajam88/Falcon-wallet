@@ -548,7 +548,7 @@ hr{
         overflow: -moz-hidden-unscrollable;
     }
     body{
-        /* overflow: hidden; */
+        overflow: hidden;
     }
     .nav-menu {
         position: fixed;
