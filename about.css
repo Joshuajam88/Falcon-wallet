@@ -422,7 +422,7 @@ html {
     }
     .team-img1, .team-img2, .team-img3{
         width: 80%;
-        margin: 0 0 20px 32px;
+        margin: 0 0 20px 38px;
 
     }
     .team{
@@ -587,7 +587,7 @@ html {
     .mission-img{
         width: 80%;
         margin-top: -50px;
-        margin-left: 32px;
+        margin-left: 38px;
     }
     #mission-txt{
         width: 85%;
