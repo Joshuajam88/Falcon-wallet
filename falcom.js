@@ -1,25 +1,3 @@
-// alert('welcome')
-// const navbar = document.getElementById('navbar');
-
-// const falcom = document.createElement('a');
-// falcom.textContent = 'FARCOM';
-// falcom.href = '#';
-// navbar.appendChild(falcom);
-
-// const links = ['Home', 'About', 'Contact'];
-
-// const ul = document.createElement('ul');
-// navbar.appendChild('ul');
-
-// links.forEach((link)=> {
-//     const li = document.createElement('li')
-//     const a = document.createElement('a');
-//     a.href = '#';
-//     a.textContent = 'link'
-//     li.appendChild(a);
-//     ul.appendChild(li);
-// });
-
 // Creating hamburger for mobile phone
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -41,7 +19,7 @@ function closeMenu() {
 }
 
 
-// Implimenting the copy to clipbard navigator
+// Implimenting the copy to clipboard navigator
 let copyTexts = document.querySelectorAll('.copy-text');
 copyTexts.forEach((copyTexts) => {
     copyTexts.querySelector('button').addEventListener('click', function(){
